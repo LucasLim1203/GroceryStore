@@ -121,10 +121,8 @@
             $mail->Body="<b>Dear User</b>
             <h3>We received a request to reset your password.</h3>
             <p>Kindly click the below link to reset your password</p>
-            http://localhost/grocery store2/grocery store2/reset_psw.php
+            http://localhost/Grocery-Store/reset_psw.php
             <br><br>
-            <p>With regards</p>
-            ";
 
             if(!$mail->send()){
                 ?>
